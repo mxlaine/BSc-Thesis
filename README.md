@@ -24,14 +24,14 @@ The open-source floating-point unit (FPU) projects examined are:
 - FPnew, a transprecision FPU primarily targeting RISC-V systems
 - VFLOAT, a variable-precision floating-point library for FPGAs
 
-## Key Findings
+## Findings
 
 The algorithm comparison found that digit-recurrence approaches, particularly
 non-restoring square-root algorithms, provide a good balance between
 latency and hardware cost.
 
 FloPoCo provides high configurability and great performance across
-a wide range of precisions, while FPnew emphasizes low area and
+a wide range of precisions. FPnew emphasizes low area and
 energy-efficient transprecision computation. VFLOAT uses a different
 lookup-table/Taylor-series architecture that scales well to higher
 precisions, although at substantially greater FPGA resource cost. 
